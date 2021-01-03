@@ -29,7 +29,7 @@ CLASS SELECTORS
 }
 .flex-container {
   display: flex;
-  border: 1px solid black;
+  border: 3px solid black;
   width: 50%;
 }
 .container-column {
@@ -40,6 +40,13 @@ CLASS SELECTORS
 }
 .element2 {
   background-color: orangered;
+}
+
+.container-row-reverse {
+  flex-direction: row-reverse;
+}
+.container-column-reverse {
+  flex-direction: column-reverse;
 }
 /* 
 ID SELECTORS
