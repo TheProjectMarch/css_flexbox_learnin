@@ -30,7 +30,7 @@ CLASS SELECTORS
 .flex-container {
   display: flex;
   border: 1px solid black;
-  width: 49%;
+  width: 50%;
 }
 .container-column {
   flex-direction: column;
