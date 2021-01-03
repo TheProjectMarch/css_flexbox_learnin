@@ -1,1 +1,20 @@
 /* CSS Styles*/
+
+#box-container {
+  height: 500px;
+  display: flex;
+}
+
+#box1 {
+  height: 50%;
+  width: 50%;
+  background-color: cornflowerblue;
+}
+#box2 {
+  height: 50%;
+  width: 50%;
+  background-color: orangered;
+}
+
+
+
