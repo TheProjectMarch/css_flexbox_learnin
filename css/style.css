@@ -1,5 +1,4 @@
 /* CSS Styles*/
-
 body {
   background-color: darkgray;
 }
@@ -21,38 +20,48 @@ CLASS SELECTORS
 }
 .big-box-container {
   height: 500px;
-  display: flex;  
+  display: flex;
 }
 .flex-element {
-  height: 20%;
+  height: 30%;
   width: 20%;
 }
 .flex-container {
   display: flex;
   border: 3px solid black;
-  width: 50%;
+  width: 50%; 
 }
 .container-column {
   flex-direction: column;
 }
-.element1 {
-  background-color: dodgerblue;
-}
-.element2 {
-  background-color: orangered;
-
 .container-row-reverse {
   flex-direction: row-reverse;
 }
 .container-column-reverse {
   flex-direction: column-reverse;
 }
+.element1 {
+  background-color: dodgerblue;
+}
+.element2 {
+  background-color: orangered;
+}
+
 /* 
 ID SELECTORS
 */
 #big-container {
   width: 70%;
-  background-color: cornsilk;
+  background-color: rgb(228, 188, 31);
+}
+#big-box-container-1 {
+  background-color: #33f;
+}
+#big-box-container-2 {
+  background-color: #f2a;
+}
+#box-1, #box-2{
+  background-color: cyan;
 }
 
 
